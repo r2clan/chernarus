@@ -1,0 +1,1 @@
+hint "Join us in our Teamspeak server @ ts3.r2clan.net";

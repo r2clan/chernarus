@@ -1,0 +1,63 @@
+/*
+ * Alternative to stringtable.csv which is simpler to install for the mission maker.
+ * Alternative au stringtable.csv qui est plus simple à installer pour le créateur de mission.
+ */
+
+STR_R3F_LOG_action_heliporter = "Elevar el objeto";
+STR_R3F_LOG_action_heliporter_fait = "Objeto ""%1"" agregado.";
+STR_R3F_LOG_action_heliporter_deja_transporte = "El objeto ""%1"" ya está cargado en el vehículo.";
+STR_R3F_LOG_action_heliporter_deplace_par_joueur = "El objeto ""%1"" está siendo movido por un jugador.";
+STR_R3F_LOG_action_heliporter_joueur_dans_objet = "Hay un jugador en el objeto ""%1"".";
+STR_R3F_LOG_action_heliporter_objet_remorque = "No se puede levantar el objeto ""%1"" porque se está remolcando otro objeto.";
+STR_R3F_LOG_action_heliport_larguer = "Soltar el objeto";
+STR_R3F_LOG_action_heliport_larguer_fait = "Objeto ""%1"" soltado.";
+
+STR_R3F_LOG_action_deplacer_objet = "Mover este objeto";
+STR_R3F_LOG_action_relacher_objet = "Soltar el objeto";
+STR_R3F_LOG_ne_pas_monter_dans_vehicule = "No puedes usar el vehículo mientras transporte ese objeto !";
+STR_R3F_LOG_courir_trop_vite = "Vas demasiado rapido! (Presiona C para aminorar)";
+STR_LOCK_OBJECT = "Bloquear este objeto";
+STR_UNLOCK_OBJECT = "Desbloquear este objeto";
+STR_RELEASE_HORIZONTAL = "Soltar el objeto horizontalmente";
+
+STR_R3F_LOG_action_selectionner_objet_charge = "Cargar en...";
+STR_R3F_LOG_action_selectionner_objet_charge_fait = "Ahora selecciona el vehículo en el que cargar el objeto ""%1""...";
+
+STR_R3F_LOG_action_charger_selection = "... cargar el objeto seleccionado en este vehículo";
+STR_R3F_LOG_action_charger_selection_en_cours = "Cargar en proceso...";
+STR_R3F_LOG_action_charger_selection_fait = "El objeto ""%1"" ha sido cargado en el vehículo.";
+STR_R3F_LOG_action_charger_selection_trop_loin = "El objeto ""%1"" está muy lejos del vehículo a cargar.";
+STR_R3F_LOG_action_charger_selection_pas_assez_de_place = "No hay espacio en este vehículo. Espacio que falta: %1, Necesita: %2";
+STR_R3F_LOG_action_charger_selection_objet_transporte = "El objeto ""%1"" está en tránsito.";
+
+STR_R3F_LOG_action_charger_deplace = "Cargado en el vehículo";
+STR_R3F_LOG_action_charger_deplace_en_cours = "Carga en proceso...";
+STR_R3F_LOG_action_charger_deplace_fait = "El objeto ha sido cargado en el vehículo ""%1"".";
+STR_R3F_LOG_action_charger_deplace_pas_assez_de_place = "No hay suficiente espacio en este vehículo.";
+
+STR_R3F_LOG_action_selectionner_objet_remorque = "Remolcar un vehículo";
+STR_R3F_LOG_action_selectionner_objet_remorque_fait = "Ahora selecciona el vehículo en el que se cargará el objeto ""%1""...";
+
+STR_R3F_LOG_action_remorquer_selection = "... remolcar el objeto seleccionado a este vehículo";
+STR_R3F_LOG_action_remorquer_selection_trop_loin = "El objeto ""%1"" está muy lejos para ser remolcado.";
+STR_R3F_LOG_action_remorquer_selection_objet_transporte = "El objeto ""%1"" está en tránsito.";
+
+STR_R3F_LOG_action_remorquer_deplace = "Remolcar el objeto";
+STR_R3F_LOG_action_detacher = "Desenganchar el objeto";
+STR_R3F_LOG_action_detacher_fait = "Objeto desenganchado.";
+STR_R3F_LOG_action_detacher_impossible_pour_ce_vehicule = "Sólo el piloto puede dejar este objeto.";
+
+STR_R3F_LOG_action_contenu_vehicule = "Ver el contenido del vehículo";
+STR_R3F_LOG_action_decharger_en_cours = "Descarga en curso...";
+STR_R3F_LOG_action_decharger_fait = "El objeto se ha descargado del vehículo.";
+STR_R3F_LOG_action_decharger_deja_fait = "El objeto ya se ha descargado.";
+
+STR_R3F_LOG_transport_en_cours = "Este vehículo está siendo transportado.";
+STR_R3F_LOG_mutex_action_en_cours = "La operación actual no está finalizada.";
+
+STR_R3F_LOG_dlg_CV_titre = "Contenido del vehículo";
+STR_R3F_LOG_dlg_CV_capacite_vehicule = "Cargar : %1/%2";
+STR_R3F_LOG_dlg_CV_btn_decharger = "Descargar";
+STR_R3F_LOG_dlg_CV_btn_fermer = "Cancelar";
+
+STR_R3F_LOG_nom_pc_arti = "Artilleria CQ";

@@ -1,0 +1,1 @@
+hint "Please visit our website for more info on what you see around you and what we have to offer. www.r2clan.net";

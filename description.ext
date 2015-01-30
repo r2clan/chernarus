@@ -1,0 +1,76 @@
+#include "scripts\R3F_ARTY_AND_LOG\desc_include.h"
+#include "cfg\CfgPricing.hpp"
+#include "cfg\infiSTAR_AdminMenu.hpp"
+author = "Epoch & Overpoch Team: Edited By [R2] Gaming";
+class Header
+{
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+respawn = "BASE";
+respawnDelay = 60;
+respawnDialog = 0;
+
+onLoadMission= "Custom Editing and Scripts By: [R2] Gaming Community";
+OnLoadIntro = "Welcome to [R2] Gaming's Overpoch Cherno";
+loadScreen = "images\loadingscreen.jpg";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+onLoadName = "Epoch Mod";
+disabledAI = true;
+scriptedPlayer = 1;
+disableChannels[]={0,2,6};
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+enableDebugConsole = 0;
+joinUnassigned = 0;
+respawnOnStart = 0;
+forceRotorLibSimulation = 0;
+
+corpseManagerMode = 1;
+corpseLimit = 10;
+corpseRemovalMinTime = 1200;
+corpseRemovalMaxTime = 3600;
+
+wreckManagerMode = 1;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+
+class CfgRemoteExecCommands {};
+
+#define CT_PROGRESS         8
+class RscTitles 
+ { 
+    #include "scripts\statusBar.hpp"
+	#include "scripts\R3F_ARTY_AND_LOG\desc_rsct_include.h"
+    class RscProgress 
+    { 
+        type = 8; 
+        style = 0; 
+        shadow = 2; 
+        colorFrame[] = {0,0,0,1}; 
+        colorBar[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])","(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])","(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])","(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};  
+        texture = "\A3\ui_f\data\GUI\RscCommon\RscProgress\progressbar_ca.paa";  
+        w = 0.25; 
+        h = 0.03; 
+    };      
+  };
+
+class CfgEmod {
+	override = 1;
+	file = "custom\a3_epoch_code\init\precompile.sqf";
+};
+
+class CfgSounds
+{
+	sounds[] = {intro};
+	class intro
+	{
+		name = "intro";
+		sound[] = {"\sounds\intro.ogg", 1, 1};
+		titles[] = {};
+	};
+};
